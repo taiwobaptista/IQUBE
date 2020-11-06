@@ -79,7 +79,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   
   Go to http://localhost:3000/bill  for Billing info
   
-  Go to http://localhost:3000/bill  for Confirm Payment tab
+  Go to http://localhost:3000/payment  for Confirm Payment tab
   
   or just check App.js for routes if not clear
 
