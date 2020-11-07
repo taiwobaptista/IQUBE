@@ -8,22 +8,22 @@ function BillingInfo() {
     return (
         <>
             <div>
-                <div className="main-body">
+                <div className="main-body2">
                 
-                    <div className="content">
+                    <div className="content2">
                         <h1>Complete your purchase</h1>
                         <Header/>
                         <div className="container-fluid cont-area">
                             <div className="row billing">
                                 <div className="col-sm">
                                     <form>
-                                        <div className="form-group form-part">
+                                        <div className="form-group form-part2">
                                             <label htmlFor="exampleFormControlInput1">Name on Card</label>
                                             <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Opara Linus Ahmed" />
                                         </div>
 
 
-                                        <div className="form-group form-part">
+                                        <div className="form-group form-part2">
                                             <label htmlFor="exampleFormControlSelect1">Card Type</label>
                                             <select className="form-control" id="exampleFormControlSelect1">
                                                 <option>Visa</option>
@@ -33,7 +33,7 @@ function BillingInfo() {
                                         </div>
 
 
-                                        <div className="form-group form-partt">
+                                        <div className="form-group form-partt2">
                                             <div className="row">
                                                 <div className="col-sm-4">
                                                     <label htmlFor="exampleFormControlInput1">Card details</label>
@@ -55,10 +55,10 @@ function BillingInfo() {
 
                                         <div className="row">
                                             <div className="col-sm">
-                                                <div className="button-region">
-                                                    <div className="button-area">
-                                                        <button type="submit" className="btn mybtn">Next</button>
-                                                        <div className="col-sm-5 cancel"><a href="">Cancel Payment</a></div>
+                                                <div className="button-region2">
+                                                    <div className="button-area2">
+                                                        <button type="submit" className="btn mybtn2">Next</button>
+                                                        <div className="col-sm-5 cancel2"><a href="">Cancel Payment</a></div>
                                                     </div>
                                                 </div>
                                             </div>

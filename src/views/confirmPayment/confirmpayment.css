@@ -10,7 +10,7 @@
   } */
 
 
-.main-body{
+.main-body3{
     /* height: 700px; */
     min-height: 700px;
     width:100%;
@@ -20,13 +20,18 @@
     /* clip-path: polygon(0% 0%,100% 0%,100% 30%,0% 80%); */
     
 }
-.content{
+
+.component{
+    width: 60%;
+}
+
+.content3{
     width: 50%;
     margin: auto;
     margin-top: 50px;
 }
 
-h1{
+ h1{
     text-align: center;
     color:#4E598C;
     padding-top: 30px;
@@ -53,7 +58,7 @@ h1{
     padding-right: 60px;
 }
 
-.text-part{
+.text-part3{
     background-color: white;
     color: #4e59bc;
     box-shadow: 0px 10px 15px rgba(33, 30, 67, 0.08);
@@ -68,6 +73,7 @@ h1{
 .table-one td{
     padding-top: 30px;
     padding-left: 70px;
+    margin-bottom: 100px;
     
 }
 
@@ -91,20 +97,20 @@ h1{
 }
 
 
-.button-area{
+.button-area3{
     width: 100%;
     margin-top: 60px;
     display: flex;
     padding-left: 340px;
 }
 
-.mybtn{
+.mybtn3{
     background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
     width: 16%;
     
 }
 
-a{
+ .content3 a{
     color: #4E598C;
    font-weight: bold;
    font-size: 20px;
@@ -117,7 +123,7 @@ a{
 
 @media(max-width:720px){
 
-    .content{
+    .content3{
         width: 85%;
         margin-left: 40px;
 
@@ -125,7 +131,7 @@ a{
 
   
 .table-one td{
-    padding-top: 30px;
+    padding-top: 0px;
     padding-left: 30px;
     
 }
@@ -148,26 +154,27 @@ a{
 
 
 
-a{
+.cancel3 a{
     font-size: 20px; 
 
 }
 
-.cancel{
+.cancel3{
   margin-top: 5px;
 }
 
-.button-region{
+.button-region3{
     width: 100%;
+    padding-top: 60px;
     
 }
 
-.button-area{
+.button-area3{
     padding-left: 40px;
 
 }
 
-.mybtn{
+.mybtn3{
     width: 30%;
     height: 40px;   
 }

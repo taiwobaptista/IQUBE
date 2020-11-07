@@ -9,7 +9,7 @@ body {
     /* font: 20px/2.2 system-ui; */
   }
 
-.main-body{
+.main-body2{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ body {
 }
 
 
-    h1{
+    .content2 h1{
         padding-top: 30px;
         margin-left: 10px;
         padding-bottom: 50px;
@@ -30,18 +30,20 @@ body {
 
     }
 
- .content{
+ .content2{
   /* margin: auto; */
+  width: 60%;
   float: right;
   margin-right: 200px;
   margin-top: 70px;
+  margin-left: 300px;
 
    
  }
 
 
-.form-part input{
-    width: 86% !important;
+.form-par input{
+    width: 86% ;
     border-radius: 7px;
 }
 
@@ -58,19 +60,19 @@ body {
     font-weight: bold;
 }
 
-.button-area{
+.button-area2{
     width: 100%;
     margin-top: 20px;
     display: flex;
 }
 
-.mybtn{
+.mybtn2{
     background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);
     width: 26%;
     
 }
 
-a{
+.content2 a{
     color: #4E598C;
    font-weight: bold;
    padding-left: 30px;
@@ -80,6 +82,7 @@ a{
 
 .numb{
     width: 100%;
+    
 }
 
 .numb22{
@@ -88,26 +91,30 @@ a{
 .numb2{
     width: 50%;
     margin-left: 5px;
+    padding-left: 10px;
 }
 
 .numb3{
     width: 100%;
     /* margin-left: 30px; */
-    
+
 }
 
-
+.component{
+    width: 70%;
+    margin: auto;
+}
 
 
 
 @media(max-width:720px){
 
-h1{
+.content2 h1{
     text-align: center;
     margin-left: 0px;
 }
 
-.content{
+.content2{
     margin:auto;
     margin-left: 30px;
 }
@@ -135,17 +142,17 @@ h1{
 }
 
 
-a{
+ .content2 a{
     font-size: 20px;
 }
 
-.button-region{
+.button-region2{
     width: 100%;
     display: flex;
 
 }
 
-.mybtn{
+.mybtn2{
     width: 40%;
     height: 50px;
      
